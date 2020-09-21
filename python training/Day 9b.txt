@@ -1,0 +1,12 @@
+def sumNumbers(n):
+    i=1
+    ListOfNumbers = []
+    while i<n:
+        if (i%3)==0 or (i%5)==0:
+            ListOfNumbers.append(i)
+        else:
+            pass
+        i+=1
+        return sum(ListOfNumbers)
+    x = sumNumbers(1000)
+    print (x)
